@@ -1,0 +1,14 @@
+# Le script pour copier :
+
+#!/bin/sh
+# dependance : necessite xdotool
+xdotool key Ctrl+c
+exit 0;
+
+
+# Le script pour coller :
+
+#!/bin/sh
+# dependance : necessite xdotool
+xdotool key Ctrl+v
+exit 0;
